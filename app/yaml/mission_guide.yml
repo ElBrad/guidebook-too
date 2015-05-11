@@ -1,0 +1,110 @@
+data:
+  - name: Mission 1
+    slug: one
+    steps: []
+    tips: []
+    rewards: []
+  - name: Mission 2
+    slug: two
+    steps: []
+    tips: []
+    rewards: []
+  - name: Mission 3
+    slug: three
+    steps: []
+    tips: []
+    rewards: []
+  - name: Mission 4
+    slug: four
+    steps: []
+    tips: []
+    rewards: []
+  - name: Mission 5
+    slug: five
+    steps: []
+    tips: []
+    rewards: []
+  - name: Mission 6
+    slug: six
+    steps: []
+    tips: []
+    rewards: []
+  - name: Mission 7
+    slug: seven
+    steps:
+      - Do at least 5 successful crimes in 3 states
+      - Train to level 3 on strength in the gym
+    tips: []
+    rewards:
+      - $4,500
+  - name: Mission 8
+    slug: eight
+    steps:
+      - Steal from 'Auto Repairs by Henry' by doing crimes in New Jersey
+      - Travel to New York and send $8,000 to AlonzoMartino once you succeed.
+    tips:
+      - It takes around 10-15 successful crimes
+    rewards:
+      - $11,000
+      - 400 bullets
+  - name: Mission 9
+    slug: nine
+    steps:
+      - Buy 6 crates of cognac in Illinois and bring it to California
+    tips:
+      - Do NOT sell the crates! Go to the mission page and deliver it manually
+    rewards:
+      - $26,000
+  - name: Mission 10
+    slug: ten
+    steps:
+      - Hire a private investigator to search RoyMackson in all states. (He will be found in Michigan)
+      - When you find him, travel to Michigan, then pay him $5,000
+      - Now, travel to New York and find another player that is on the same mission
+      - Once you find a partner, one of you will be a lookout and one of you will be the burglar.
+      - Lookout - Press 'lookout' every 4 minutes on the Auto Burglary page.
+      - Burglar - Steal from the last option every time the lookout gives you the signal.
+    tips:
+      - It takes around 9-15 attempts to steal the car
+    rewards:
+      - 1928 Mercedes-Benz 630k
+  - name: Mission 11
+    slug: eleven
+    steps:
+      - Search for CaptainMorrison in both Nevada and California
+      - Once found, pay him $10,000. He will tell you who the source is.
+      - Travel to New York and start trailing PietroGrazia (from his user profile page).
+      - Trail PietroGrazia every 4-5 minutes, do not let the time expire
+    tips:
+      - Click 'trail' when there are 2 minutes left
+      - Takes 8-15 attempts
+    rewards:
+      - $50,000
+      - Rank experience
+      - 1,000 bullets
+  - name: Mission 12
+    slug: twelve
+    steps:
+      - Hire a private investigator to find the brothers.
+      - Only search for one brother at a time, otherwise the searches may expire.
+    tips:
+      - SergioBraschi will be in New Jersey
+      - FrancoChiatti will be in New York
+      - BrunoFerilli will be in Michigan
+      - AngeloToffolli will be in Illinois
+      - You can have the private investigator only search in one state to save money
+      - Each one will take 10-15 attempts to bust them out.
+    rewards:
+      - $100,000
+      - Rank experience
+      - 5 bullets
+  - name: Mission 13
+    slug: thirteen
+    steps:
+      - Hire a private investigator to search for PietroGrazia in New York and Michigan
+      - Once the private investigator has found him, travel to the state where he was found.
+      - Use any car and shoot 5 bullets to kill him.
+    rewards:
+      - $40,000
+      - Rank experience
+      - 5,00 bullets

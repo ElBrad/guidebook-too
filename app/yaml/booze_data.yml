@@ -1,0 +1,181 @@
+data:
+  - name: Moonshine
+    states:
+      - name: Michigan
+        price: 40
+        class:
+      - name: Illinois
+        price: 53
+        class:
+      - name: California
+        price: 73
+        class: red
+      - name: New York
+        price: 30
+        class: green
+      - name: Nevada
+        price: 40
+        class:
+      - name: New Jersey
+        price: 34
+        class:
+  - name: Beer
+    states:
+      - name: Michigan
+        price: 98
+        class: red
+      - name: Illinois
+        price: 78
+        class:
+      - name: California
+        price: 96
+        class:
+      - name: New York
+        price: 69
+        class: green
+      - name: Nevada
+        price: 100
+        class:
+      - name: New Jersey
+        price: 74
+        class:
+  - name: Gin
+    states:
+      - name: Michigan
+        price: 200
+        class:
+      - name: Illinois
+        price: 104
+        class: green
+      - name: California
+        price: 238
+        class: red
+      - name: New York
+        price: 156
+        class:
+      - name: Nevada
+        price: 167
+        class:
+      - name: New Jersey
+        price: 216
+        class:
+  - name: Whisky
+    states:
+      - name: Michigan
+        price: 40
+        class:
+      - name: Illinois
+        price: 53
+        class:
+      - name: California
+        price: 73
+        class: red
+      - name: New York
+        price: 30
+        class: green
+      - name: Nevada
+        price: 40
+        class:
+      - name: New Jersey
+        price: 34
+        class:
+  - name: Rum
+    states:
+      - name: Michigan
+        price: 416
+        class:
+      - name: Illinois
+        price: 285
+        class: green
+      - name: California
+        price: 364
+        class:
+      - name: New York
+        price: 446
+        class: red
+      - name: Nevada
+        price: 402
+        class:
+      - name: New Jersey
+        price: 418
+        class:
+  - name: Vodka
+    states:
+      - name: Michigan
+        price: 614
+        class:
+      - name: Illinois
+        price: 606
+        class:
+      - name: California
+        price: 588
+        class:
+      - name: New York
+        price: 407
+        class: green
+      - name: Nevada
+        price: 549
+        class:
+      - name: New Jersey
+        price: 657
+        class: red
+  - name: Tequila
+    states:
+      - name: Michigan
+        price: 960
+        class: red
+      - name: Illinois
+        price: 860
+        class:
+      - name: California
+        price: 714
+        class: green
+      - name: New York
+        price: 825
+        class:
+      - name: Nevada
+        price: 780
+        class:
+      - name: New Jersey
+        price: 931
+        class:
+  - name: Wine
+    states:
+      - name: Michigan
+        price: 1213
+        class: red
+      - name: Illinois
+        price: 990
+        class:
+      - name: California
+        price: 979
+        class:
+      - name: New York
+        price: 1045
+        class:
+      - name: Nevada
+        price: 1103
+        class:
+      - name: New Jersey
+        price: 966
+        class: green
+  - name: Cognac
+    states:
+      - name: Michigan
+        price: 1776
+        class:
+      - name: Illinois
+        price: 2121
+        class:
+      - name: California
+        price: 1746
+        class:
+      - name: New York
+        price: 1881
+        class:
+      - name: Nevada
+        price: 2200
+        class: red
+      - name: New Jersey
+        price: 1665
+        class: green
