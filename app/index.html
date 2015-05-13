@@ -13,6 +13,16 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+      <script>
+          function openChatApp() {
+              var curURL = document.referrer;
+              if (curURL.search("chat.html") < 1) {
+                  window.location = "./chat.html";
+              } else {
+                  alert("The chat application is already open");
+              }
+          }
+      </script>
   </head>
   <body ng-app="bootleggersGuideApp">
     <!--[if lt IE 7]>
@@ -40,6 +50,7 @@
             <ul class="nav navbar-nav">
               <li><a ng-href="#/mission_guide">Mission Guide</a></li>
               <li><a ng-href="#/booze_info">Booze Info</a></li>
+                <li><a onClick="openChatApp();" href="#chat">Live Help</a></li>
             </ul>
           </div>
         </div>
