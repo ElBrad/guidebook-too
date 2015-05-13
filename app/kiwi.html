@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>BootHelp Chat</title>
+
+    <script language='Javascript'>
+
+        var ident = Math.floor((Math.random() * 1000) + 100);
+
+        function startChat() {
+            document.getElementById('kiwi').src = "https://kiwiirc.com/client?settings=e9286b604ad025752393eb5d37329b68&nick=BootHelp_" + ident;
+        }
+
+        function autoResize()
+        {
+
+            newWidth = document.body.clientWidth;
+            newHeight = document.body.clientHeight;
+
+            if(newWidth == null){
+
+                newWidth = window.innerWidth;
+
+            }
+
+            if(newHeight == null){
+
+                newHeight = window.innerHeight;
+
+            }
+
+            if(newWidth <= 50){
+
+                newWidth = 50;
+
+            }
+
+            if(newHeight <= 50){
+
+                newHeight = 50;
+
+            }
+
+            document.getElementById('kiwi').style.width = newWidth;
+            document.getElementById('kiwi').style.height = newHeight - 12;
+
+            startChat();
+
+        }
+
+        window.onload = autoResize;
+        window.onresize = autoResize;
+
+    </script>
+
+</head>
+
+<body bgcolor="#0f0f0f" leftmargin="0" topmargin="0" style="background-color: #191919 !important">
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+        <td align="left" class="sub"></td>
+        <td align="right" class="sub"><a href="./" target="_top">&times; Close</a></td>
+    </tr>
+    <tr>
+        <td colspan=2>
+            <iframe src="#" style="border:0; width:100%; height:175px;" id="kiwi"></iframe>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
