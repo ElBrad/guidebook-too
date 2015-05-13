@@ -1,32 +1,17 @@
-<html>
-<head>
-    <title>BootHelp Chat</title>
-
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-
-    <script>
-        function chatApp() {
-            var ref = document.referrer;
-
-            if (ref.length < 3) { ref = "./index.html" }
-
-
-                $("#main").attr("src", ref);
-
-        }
-
-        $(document).ready(function() {
-            chatApp();
-        });
-    </script>
+<!doctype html>
+<html class="no-js">
+<title>BootHelp Chat</title>
+  <!-- build:js(.) scripts/chat/vendor.js -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:js({.tmp,app}) scripts/chat/scripts.js -->
+  <script src="scripts/chat.js"></script>
+  <!-- endbuild -->
 </head>
-
 <frameset rows="*,388">
-
     <frame name="main" id="main" src="#">
     <frame name="chat" id="chat" src="./kiwi.html" scrolling="no">
-
 </frameset>
-
-
 </html>
