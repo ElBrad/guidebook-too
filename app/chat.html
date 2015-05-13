@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>BootHelp Chat</title>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+
+    <script>
+        function chatApp() {
+            var ref = document.referrer;
+
+            if (ref.length < 3) { ref = "./index.html" }
+
+
+                $("#main").attr("src", ref);
+
+        }
+
+        $(document).ready(function() {
+            chatApp();
+        });
+    </script>
+</head>
+
+<frameset rows="*,388">
+
+    <frame name="main" id="main" src="#">
+    <frame name="chat" id="chat" src="./kiwi.html" scrolling="no">
+
+</frameset>
+
+
+</html>
