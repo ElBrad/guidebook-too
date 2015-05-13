@@ -12,8 +12,6 @@ angular.module('bootleggersGuideApp')
     {
         $scope.mission_id = $routeParams.missionId;
 
-        console.log($window.location.pathname);
-
         $http.get($window.location.pathname + 'mission_guide.json')
             .success(function(response)
             {
