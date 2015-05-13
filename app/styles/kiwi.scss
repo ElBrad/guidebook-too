@@ -3,15 +3,19 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-body {
-  background-color: #191919;
-  margin: 0;
+html {
+  height: 100%;
+  body {
+    background-color: #191919;
+    margin: 0;
+    height: 100%;
+  }
 }
 
 iframe#kiwi {
   border: 0;
   width: 100%;
-  height: 175px;
+  height: 100%;
 }
 
 a#close-link {
