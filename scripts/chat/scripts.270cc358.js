@@ -1,0 +1,1 @@
+$(document).ready(function(){var a=document.referrer;a.length<3&&(a="./index.html"),$("#main").attr("src",a)});

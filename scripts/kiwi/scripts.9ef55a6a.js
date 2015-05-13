@@ -1,0 +1,1 @@
+$(function(){var a=Math.floor(1e3*Math.random()+100);$("#kiwi").attr("src","https://kiwiirc.com/client?settings=e9286b604ad025752393eb5d37329b68&nick=BootHelp_"+a)});
