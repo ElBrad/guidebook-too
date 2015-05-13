@@ -13,16 +13,6 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-      <script>
-          function openChatApp() {
-              var curURL = document.referrer;
-              if (curURL.search("chat.html") < 1) {
-                  window.location = "./chat.html";
-              } else {
-                  alert("The chat application is already open");
-              }
-          }
-      </script>
   </head>
   <body ng-app="bootleggersGuideApp">
     <!--[if lt IE 7]>
@@ -45,12 +35,12 @@
             <a class="navbar-brand" href="#/">Bootleggers Guide</a>
           </div>
 
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+          <div class="collapse navbar-collapse" id="js-navbar-collapse" ng-controller="NavCtrl">
 
             <ul class="nav navbar-nav">
               <li><a ng-href="#/mission_guide">Mission Guide</a></li>
               <li><a ng-href="#/booze_info">Booze Info</a></li>
-                <li><a onClick="openChatApp();" href="#chat">Live Help</a></li>
+              <li><a ng-click="openChatApp()" ng-href="#/" ng-show="isChatClosed()">Live Help</a></li>
             </ul>
           </div>
         </div>
@@ -66,7 +56,7 @@
         <p><span class="glyphicon glyphicon-heart"></span> from the BootTools team</p>
       </div>
     </div>
-    
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -84,6 +74,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/navigation.js"></script>
         <script src="scripts/controllers/missionGuide.js"></script>
         <script src="scripts/controllers/booze.js"></script>
         <!-- endbuild -->
